@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F3B298BD2317E2560071F47B /* CSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B298B32317E2560071F47B /* CSFoundation.framework */; };
-		F3B298C22317E2560071F47B /* CSFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298C12317E2560071F47B /* CSFoundationTests.m */; };
 		F3B298C42317E2560071F47B /* CSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B298B62317E2560071F47B /* CSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3ED9EC6232FAF4000651949 /* CSFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */; };
 		F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
@@ -43,8 +42,6 @@
 		F3B298B62317E2560071F47B /* CSFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundation.h; sourceTree = "<group>"; };
 		F3B298B72317E2560071F47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B298BC2317E2560071F47B /* CSFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B298C12317E2560071F47B /* CSFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationTests.m; sourceTree = "<group>"; };
-		F3B298C32317E2560071F47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3B298D12317E27C0071F47B /* libCSFoundationStdb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSFoundationStdb.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B298D32317E27D0071F47B /* CSFoundationStdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationStdb.h; sourceTree = "<group>"; };
 		F3B298D42317E27D0071F47B /* CSFoundationStdb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationStdb.m; sourceTree = "<group>"; };
@@ -83,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				F3B298B52317E2560071F47B /* CSFoundation */,
-				F3B298C02317E2560071F47B /* CSFoundationTests */,
 				F3B298D22317E27D0071F47B /* CSFoundationStdb */,
 				F3B298B42317E2560071F47B /* Products */,
 			);
@@ -109,15 +105,6 @@
 				F3B298B72317E2560071F47B /* Info.plist */,
 			);
 			path = CSFoundation;
-			sourceTree = "<group>";
-		};
-		F3B298C02317E2560071F47B /* CSFoundationTests */ = {
-			isa = PBXGroup;
-			children = (
-				F3B298C12317E2560071F47B /* CSFoundationTests.m */,
-				F3B298C32317E2560071F47B /* Info.plist */,
-			);
-			path = CSFoundationTests;
 			sourceTree = "<group>";
 		};
 		F3B298D22317E27D0071F47B /* CSFoundationStdb */ = {
@@ -267,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B298C22317E2560071F47B /* CSFoundationTests.m in Sources */,
 				F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
