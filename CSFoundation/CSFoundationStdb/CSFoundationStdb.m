@@ -17,6 +17,7 @@
 +(NSString*)meassageInfo
 {
     NSString *msg = @"AndersenLi add log";
+    msg = [msg stringByAppendingString:@"cocopods add"];
     return [NSString stringWithFormat:@"static labrary meassage %@",msg];
 }
 @end
