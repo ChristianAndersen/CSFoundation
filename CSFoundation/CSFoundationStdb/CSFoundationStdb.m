@@ -13,4 +13,8 @@
 {
     return @"static labrary version 1.0";
 }
++(NSString*)meassageInfo
+{
+    return @"static labrary meassage ....";
+}
 @end
