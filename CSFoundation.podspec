@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.author       = { 'ChristianAndersen' => '1476756749@qq.com' }
   spec.source       = { :git => 'https://github.com/ChristianAndersen/CSFoundation.git', :tag => spec.version }
   spec.social_media_url   = "https://www.jianshu.com/u/276c4f13c37b"
-  spec.source_files = 'CSFoundation'
+  spec.source_files = 'CSFoundationStdb/.{h,m}'
   spec.requires_arc = true
 end

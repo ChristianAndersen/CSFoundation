@@ -10,9 +10,10 @@
 		F3B298BD2317E2560071F47B /* CSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B298B32317E2560071F47B /* CSFoundation.framework */; };
 		F3B298C22317E2560071F47B /* CSFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298C12317E2560071F47B /* CSFoundationTests.m */; };
 		F3B298C42317E2560071F47B /* CSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B298B62317E2560071F47B /* CSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3B298D52317E27D0071F47B /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
-		F3B298D62317E27D0071F47B /* CSFoundationStdb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F3B298D32317E27D0071F47B /* CSFoundationStdb.h */; };
 		F3ED9EC6232FAF4000651949 /* CSFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */; };
+		F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
+		F3ED9ECB232FB74900651949 /* CSFoundationMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */; };
+		F3ED9ECC232FB74900651949 /* CSFoundationMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				F3B298D62317E27D0071F47B /* CSFoundationStdb.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +49,8 @@
 		F3B298D32317E27D0071F47B /* CSFoundationStdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationStdb.h; sourceTree = "<group>"; };
 		F3B298D42317E27D0071F47B /* CSFoundationStdb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationStdb.m; sourceTree = "<group>"; };
 		F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSFoundation.podspec; path = ../../CSFoundation.podspec; sourceTree = "<group>"; };
+		F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationMsg.h; sourceTree = "<group>"; };
+		F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationMsg.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				F3B298B62317E2560071F47B /* CSFoundation.h */,
+				F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */,
+				F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */,
 				F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */,
 				F3B298B72317E2560071F47B /* Info.plist */,
 			);
@@ -133,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B298C42317E2560071F47B /* CSFoundation.h in Headers */,
+				F3ED9ECB232FB74900651949 /* CSFoundationMsg.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ED9ECC232FB74900651949 /* CSFoundationMsg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B298C22317E2560071F47B /* CSFoundationTests.m in Sources */,
+				F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B298D52317E27D0071F47B /* CSFoundationStdb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
