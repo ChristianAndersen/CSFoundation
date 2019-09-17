@@ -13,7 +13,6 @@
 		F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
 		F3ED9ECB232FB74900651949 /* CSFoundationMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */; };
 		F3ED9ECC232FB74900651949 /* CSFoundationMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */; };
-		F3ED9EE323315EBA00651949 /* CSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ED9EE223315EBA00651949 /* CSFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSFoundation.podspec; path = ../../CSFoundation.podspec; sourceTree = "<group>"; };
 		F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationMsg.h; sourceTree = "<group>"; };
 		F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationMsg.m; sourceTree = "<group>"; };
-		F3ED9EE223315EBA00651949 /* CSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSFoundation.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3ED9EE323315EBA00651949 /* CSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +79,6 @@
 		F3B298A92317E2560071F47B = {
 			isa = PBXGroup;
 			children = (
-				F3ED9EE223315EBA00651949 /* CSFoundation.framework */,
 				F3B298B52317E2560071F47B /* CSFoundation */,
 				F3B298D22317E27D0071F47B /* CSFoundationStdb */,
 				F3B298B42317E2560071F47B /* Products */,

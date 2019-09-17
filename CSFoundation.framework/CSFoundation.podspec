@@ -8,10 +8,10 @@ Pod::Spec.new do |spec|
   spec.author       = { 'ChristianAndersen' => '1476756749@qq.com' }
   spec.source       = { :git => 'https://github.com/ChristianAndersen/CSFoundation.git', :tag => spec.version }
   spec.social_media_url   = "https://www.jianshu.com/u/276c4f13c37b"
-  spec.source_files = 'CSFoundation/CSFoundation/*.{h,m}'
+  spec.source_files = 'CSFoundation/CSFoundation','CSFoundation/CSFoundation/*.{h,m}'
   spec.requires_arc = true
 
-  spec.public_header_files = 'CSFoundation/CSFoundation/*.{h}'
   spec.frameworks = 'Foundation'
   spec.vendored_frameworks = 'CSFoundation/**/*.{framework}'
 end
+
