@@ -1,6 +1,0 @@
-framework module CSFoundation {
-  umbrella header "CSFoundation.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'CSFoundation'
-  spec.version      = '1.0.4'
+  spec.version      = '1.0.6'
   spec.platform     = :ios, '8.0'
   spec.license      = 'MIT'
   spec.summary      = 'A sdk for cocopods'
