@@ -11,15 +11,15 @@
 @implementation CSFoundationMsg
 +(NSString*)version
 {
-    return @"static labrary version 1.0";
+    return @"static labrary version v1.0";
 }
 
 +(NSString*)meassageInfo
 {
     NSString *msg = @"AndersenLi add log";
     msg = [msg stringByAppendingString:@"cocopods add"];
-    msg = [msg stringByAppendingString:@"可能是成功了"];
-    msg = [msg stringByAppendingString:@"1.0.1.0"];
+    msg = [msg stringByAppendingString:@"添加framework"];
+    msg = [msg stringByAppendingString:@"v1.0.0"];
     return [NSString stringWithFormat:@"static labrary meassage %@",msg];
 }
 @end

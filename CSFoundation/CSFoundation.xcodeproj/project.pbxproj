@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F3B298BD2317E2560071F47B /* CSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B298B32317E2560071F47B /* CSFoundation.framework */; };
 		F3B298C42317E2560071F47B /* CSFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B298B62317E2560071F47B /* CSFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3ED9EC6232FAF4000651949 /* CSFoundation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */; };
 		F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
 		F3ED9ECB232FB74900651949 /* CSFoundationMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */; };
 		F3ED9ECC232FB74900651949 /* CSFoundationMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */; };
@@ -228,7 +227,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3ED9EC6232FAF4000651949 /* CSFoundation.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +414,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianju.Realm.CSFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -444,6 +446,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianju.Realm.CSFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
