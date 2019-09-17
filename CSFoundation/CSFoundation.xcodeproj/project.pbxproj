@@ -50,7 +50,6 @@
 		F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationMsg.h; sourceTree = "<group>"; };
 		F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationMsg.m; sourceTree = "<group>"; };
 		F3ED9ED42330E0CA00651949 /* CSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSFoundation.framework; sourceTree = "<group>"; };
-		F3ED9ED62330E11400651949 /* CSFoundation.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundation.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +107,6 @@
 				F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */,
 				F3ED9ED42330E0CA00651949 /* CSFoundation.framework */,
 				F3B298B72317E2560071F47B /* Info.plist */,
-				F3ED9ED62330E11400651949 /* CSFoundation.pch */,
 			);
 			path = CSFoundation;
 			sourceTree = "<group>";

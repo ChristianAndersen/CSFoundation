@@ -18,6 +18,7 @@
 {
     NSString *msg = @"AndersenLi add log";
     msg = [msg stringByAppendingString:@"cocopods add"];
-    return [NSString stringWithFormat:@"static labrary meassage %@ %@",msg,CSFOUNDATION_VERSION];
+    msg = [msg stringByAppendingString:@"1.0.4"];
+    return [NSString stringWithFormat:@"static labrary meassage %@",msg];
 }
 @end
