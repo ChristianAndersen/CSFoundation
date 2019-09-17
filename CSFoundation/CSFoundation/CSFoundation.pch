@@ -1,0 +1,12 @@
+//
+//  CSFoundation.pch
+//  CSFoundation
+//
+//  Created by Andersen on 2019/9/17.
+//  Copyright © 2019 Andersen. All rights reserved.
+//
+
+#ifndef CSFoundation_pch
+#define CSFoundation_pch
+#define CSFOUNDATION_VERSION @"1.0.4"
+#endif /* CSFoundation_pch */
