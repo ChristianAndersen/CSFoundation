@@ -11,7 +11,7 @@
 @implementation CSFoundationStdb
 +(NSString*)version
 {
-    return @"static labrary version 1.0";
+    return @"static labrary version 1.0.14";
 }
 
 +(NSString*)meassageInfo
