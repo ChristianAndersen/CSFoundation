@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'CSFoundation'
-  spec.version      = '1.0.10'
+  spec.version      = '1.0.12'
   spec.platform     = :ios, '8.0'
   spec.license      = 'MIT'
   spec.summary      = 'A sdk for cocopods'
@@ -11,7 +11,8 @@ Pod::Spec.new do |spec|
   spec.source_files = 'CSFoundation/CSFoundation/','CSFoundation/CSFoundation/*.{h,m}'
   spec.requires_arc = true
 
+  spec.preserve_paths = 'CSFoundation/CSFoundation/libCSFoundationStdb.a'
   spec.public_header_files = 'CSFoundation/CSFoundation/*.h'
   spec.framework = 'Foundation'
-  spec.ios.vendored_library = 'CSFoundation/CSFoundation/libCSFoundationStdb.a'
+  spec.vendored_libraries = 'CSFoundation/CSFoundation/libCSFoundationStdb.a'
 end
