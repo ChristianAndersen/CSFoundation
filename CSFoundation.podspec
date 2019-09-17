@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'CSFoundation/CSFoundation/','CSFoundation/CSFoundation/*.{h,m}'
   spec.requires_arc = true
 
-  spec.preserve_paths = 'CSFoundation.framework'
+  spec.preserve_paths = 'CSFoundation/master/*.framework'
   spec.framework = 'Foundation'
-  spec.ios.vendored_frameworks = 'CSFoundation.framework'
+  spec.ios.vendored_frameworks = 'CSFoundation/CSFoundation.framework'
 end
