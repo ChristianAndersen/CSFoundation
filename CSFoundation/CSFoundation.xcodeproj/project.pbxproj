@@ -13,6 +13,7 @@
 		F3ED9EC8232FB71500651949 /* CSFoundationStdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B298D42317E27D0071F47B /* CSFoundationStdb.m */; };
 		F3ED9ECB232FB74900651949 /* CSFoundationMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */; };
 		F3ED9ECC232FB74900651949 /* CSFoundationMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */; };
+		F3ED9EEF23318D9600651949 /* libCSFoundationStdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ED9EEE23318D9600651949 /* libCSFoundationStdb.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSFoundation.podspec; path = ../../CSFoundation.podspec; sourceTree = "<group>"; };
 		F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundationMsg.h; sourceTree = "<group>"; };
 		F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundationMsg.m; sourceTree = "<group>"; };
+		F3ED9EEE23318D9600651949 /* libCSFoundationStdb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCSFoundationStdb.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3ED9EEF23318D9600651949 /* libCSFoundationStdb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +104,7 @@
 				F3B298B62317E2560071F47B /* CSFoundation.h */,
 				F3ED9EC9232FB74900651949 /* CSFoundationMsg.h */,
 				F3ED9ECA232FB74900651949 /* CSFoundationMsg.m */,
+				F3ED9EEE23318D9600651949 /* libCSFoundationStdb.a */,
 				F3ED9EC5232FAF4000651949 /* CSFoundation.podspec */,
 				F3B298B72317E2560071F47B /* Info.plist */,
 			);
@@ -416,6 +420,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CSFoundation",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianju.Realm.CSFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -444,6 +452,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CSFoundation",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dianju.Realm.CSFoundation;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

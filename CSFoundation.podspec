@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'CSFoundation/CSFoundation/','CSFoundation/CSFoundation/*.{h,m}'
   spec.requires_arc = true
 
-  spec.preserve_paths = 'CSFoundation/CSFoundation/libCSFoundationStdb.a'
+  spec.public_header_files = 'CSFoundation/CSFoundation/*.h'
   spec.framework = 'Foundation'
   spec.ios.vendored_library = 'CSFoundation/CSFoundation/libCSFoundationStdb.a'
 end
